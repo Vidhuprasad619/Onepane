@@ -1,0 +1,25 @@
+.Header{
+    box-sizing: border-box;
+    height: 10dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 2px 4px 10px 3px #d4d4d4;
+    margin-bottom: 3dvw;
+}
+
+.company_logo{
+    display: flex;
+    align-items: center;
+}
+.company_logo > img{
+    height: 50px;
+    padding: 5px;
+}
+.company_logo > h1{
+    background: linear-gradient(90deg, #5404c4, #f39c12);
+    background-clip: text;
+    color: transparent;
+}
